@@ -57,3 +57,5 @@
 ## Gün - 3
 
   1 - [Object Orientde Programing](https://github.com/mertcosgun/javaDemos/tree/master/objectOrientedProgramming)
+
+  2 - [Polymorphism Demo](https://github.com/mertcosgun/javaDemos/tree/master/polymorphismDemo)
