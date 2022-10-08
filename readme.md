@@ -4,7 +4,7 @@
 
 
 ## Gün - 1
----
+
   1 - [Hello World](https://github.com/mertcosgun/javaDemos/tree/master/javaHelloWorld)
 
   2 - [Data Types](https://github.com/mertcosgun/javaDemos/tree/master/datatypes/src)
@@ -37,7 +37,7 @@
 
 
 ## Gün - 2
----
+
   1 - [Methods](https://github.com/mertcosgun/javaDemos/tree/master/methods)
 
   2 - [Methods 2](https://github.com/mertcosgun/javaDemos/tree/master/methods2)
@@ -56,5 +56,4 @@
 
 ## Gün - 3
 
-  -----
   1 - [Object Orientde Programing](https://github.com/mertcosgun/javaDemos/tree/master/objectOrientedProgramming)
