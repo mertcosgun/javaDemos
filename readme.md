@@ -1,6 +1,6 @@
 # Java Camp Kodlama.io
 
-* İlk iki hafataaiat koldarı github repomdaki hata sebebiyle tekrar atmak zorunda kaldım inceleyenlerin anlayışla karşılamasını rica ederim.
+* İlk iki haftaya ait koldarı github repomdaki hata sebebiyle tekrar atmak zorunda kaldım inceleyenlerin anlayışla karşılamasını rica ederim.
 
 
 ## Gün - 1
@@ -59,3 +59,15 @@
   1 - [Object Orientde Programing](https://github.com/mertcosgun/javaDemos/tree/master/objectOrientedProgramming)
 
   2 - [Polymorphism Demo](https://github.com/mertcosgun/javaDemos/tree/master/polymorphismDemo)
+
+  3 - [Overriding](https://github.com/mertcosgun/javaDemos/tree/master/overriding)
+
+  4 - [Abstract Classes](https://github.com/mertcosgun/javaDemos/tree/master/abstractClasses)
+
+  5 - [Abstract Demo](https://github.com/mertcosgun/javaDemos/tree/master/abstractDemo)
+
+  6 - [Interfaces](https://github.com/mertcosgun/javaDemos/tree/master/interfaces)
+
+  7 - [Interface Demo](https://github.com/mertcosgun/javaDemos/tree/master/interfaceDemo)
+
+  8 - [Static Demo](https://github.com/mertcosgun/javaDemos/tree/master/staticDemo)
