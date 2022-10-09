@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        CustomerDal customerDal = new OracleCustomerDal();
-        customerDal.add();
+        CustomerDal[] customerDals = new CustomerDal[]{new OracleCustomerDal(), new MySqlCustomerDal()};
+
+
+        CustomerManager manager = new CustomerManager(customerDals);
+        manager.add();
     }
 }
