@@ -72,4 +72,6 @@
 
   8 - [Static Demo](https://github.com/mertcosgun/javaDemos/tree/master/staticDemo)
 
-  8 - [Kodlama.io Course Page Demo](https://github.com/mertcosgun/javaDemos/tree/master/kodlamaio)
+  9 - [Kodlama.io Course Page Demo](https://github.com/mertcosgun/javaDemos/tree/master/kodlamaio)
+  
+  10 - [Sql Learning Demo](https://github.com/mertcosgun/javaDemos/tree/master/sqlDemo)
