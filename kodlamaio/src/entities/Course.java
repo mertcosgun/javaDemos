@@ -3,6 +3,7 @@ package entities;
 public class Course {
     private int id;
     private String name;
+    private double price;
     private int instructorId;
     private int categoryId;
     private String imagePath;
@@ -11,9 +12,10 @@ public class Course {
     public Course() {
     }
 
-    public Course(int id, String name, int instructorId, int  categoryId, String imagePath, double percentageOfCompletion) {
+    public Course(int id, String name, double price, int instructorId, int  categoryId, String imagePath, double percentageOfCompletion) {
         this.id = id;
         this.name = name;
+        this.price = price;
         this.instructorId = instructorId;
         this.categoryId = categoryId;
         this.imagePath = imagePath;
@@ -34,6 +36,14 @@ public class Course {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public int getInstructor() {

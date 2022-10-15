@@ -9,9 +9,9 @@ public class MysqlCourseDao implements CourseDao {
     List<Course> courses = new CopyOnWriteArrayList<Course>();
 
     public MysqlCourseDao() {
-        this.courses.add(new Course(1, "(2022) Yazılım geliştirici Yetiştirme Kampı JAVA", 1, 1, "java_camp_22.png", 95.99));
-        this.courses.add(new Course(2, "Senior Yazılım Geliştirici Yetiştirme Kampı (.NET)", 1, 1, "senior_dev_camp.png", 25));
-        this.courses.add(new Course(3, "Yazılım Geliştirici Yetiştirme Kampı (JAVA + REACT)", 1, 1, "java_react_camp.png", 85.89));
+        this.courses.add(new Course(1, "(2022) Yazılım geliştirici Yetiştirme Kampı JAVA", 10, 1, 1, "java_camp_22.png", 95.99));
+        this.courses.add(new Course(2, "Senior Yazılım Geliştirici Yetiştirme Kampı (.NET)", 20, 1, 1, "senior_dev_camp.png", 25));
+        this.courses.add(new Course(3, "Yazılım Geliştirici Yetiştirme Kampı (JAVA + REACT)", 30, 1, 1, "java_react_camp.png", 85.89));
     }
 
     @Override

@@ -17,23 +17,27 @@ public class CourseManager {
         this.loggers = loggers;
     }
 
-    public void add(Course course){
+    public void add(Course course) {
         for (Course dbCourse : courseDao.getCourses()) {
             if (!Validator.isUnique(dbCourse.getName(), course.getName())) {
-                courseDao.add(course);
-                System.out.println(course.getName() + "kurs eklendi.");
-                for (BaseLogger logger : loggers) {
-                    logger.log(course.getName() + " kurs başarıyla eklendi");
+                if (course.getPrice() > 0) {
+                    courseDao.add(course);
+                    System.out.println(course.getName() + "kurs eklendi.");
+                    for (BaseLogger logger : loggers) {
+                        logger.log(course.getName() + " kurs başarıyla eklendi");
+                    }
+                    return;
+                } else {
+                    System.out.println("Kurs fiyatı 0'a eşit olamaz.");
                 }
-                return;
-            }else {
+            } else {
                 System.out.println(course.getName() + " zaten mevcut");
             }
         }
     }
 
     public Course getCourseById(int id) {
-       return courseDao.getById(id);
+        return courseDao.getById(id);
     }
 
     public List<Course> getCourses() {
